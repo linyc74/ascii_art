@@ -14,7 +14,7 @@ class TestAsciiArt(TestCase):
 
     def test_main(self):
         self.art.main(
-            file=f'{self.indir}/snow.png',
+            file=f'{self.indir}/cat.png',
             white_background=False,
             height=100)
 
